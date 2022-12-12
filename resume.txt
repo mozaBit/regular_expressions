@@ -1,0 +1,30 @@
+
+
+Regular Expressions:
+	are a tool for searching and matching ârts of a text by describing the patterns that should be used to identify those parts.
+
+	* Symbols representing a text pattern
+	* Formal language interpreted by a regular expression processor
+	* Used for matching, searching, and replacing text
+	* Used by programming langauges
+	* "Regex" for short
+
+Some Usage Examples:
+	- Test if credit card number has the correct number of digits
+	- Test if an email address is in a valid format
+	- Search a email for either "color" or "colour"
+	- Replace all occurances of "Bob", "Bobby", or "B." with "Robert"
+	- Count how many times "training" is preceded by "computer", "video", or "online"
+
+Modes :
+	* Standard: /re/
+	* Global: /re/g (to check all the document and not first match)
+	* Case insensitive: /re/i
+	* Multiline: /re/m
+
+Literal Characters:
+	* /car/ matches "car"
+	* /car/ matches the first three letters of "carnival"
+	* Similar to searching in a word processor
+	* Simplest match there is
+	* Case-sensitive (by deafault)
